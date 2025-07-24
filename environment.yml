@@ -1,0 +1,20 @@
+```yaml
+name: phase5-lora-chat_721
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - jupyter
+  - ipywidgets
+  - pip:
+      - datasets
+      - transformers
+      - peft
+      - accelerate
+      - bert-score
+      - gradio
